@@ -1,10 +1,11 @@
-import css from './App.module.css';
-import Sidebar from './components/Sidebar';
+import React from 'react';
+import NavBarSimple from './NavBarSimple'; // Adjust the import path as necessary
+
 
 function App() {
   return (
-    <div className={css.App}>
-      <Sidebar />
+    <div className="App">
+      <NavBarSimple />
     </div>
   );
 }
