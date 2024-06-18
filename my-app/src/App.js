@@ -1,11 +1,12 @@
 import React from 'react';
-import NavBarSimple from './NavBarSimple'; // Adjust the import path as necessary
+import NavBarForm from './NavBarForm'; // Adjust the import path as necessary
 
 
 function App() {
   return (
     <div className="App">
-      <NavBarSimple />
+      <NavBarForm />
+      {/* <NavBarSimple /> */}
     </div>
   );
 }
