@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import css from './components/css/NavBarForm.module.css';
+import css from './css/NavBarForm.module.css';
 import NavBarChild from "./NavBarChild";
 
 class NavBarForm extends Component {
